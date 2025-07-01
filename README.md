@@ -1,9 +1,13 @@
 ////////////////////SETUP
 
 clone the repository
+
 cd proj
+
 cd frontend
+
 npm install
+
 npm run dev
 
 you can see it in local host 8000
@@ -14,12 +18,15 @@ you can see it in local host 8000
 Hence I made a mock login page , one should submit username as "admin" and password as "1234" to get access to dashbaord
 
 2)Next I made a small loading animation
+
 which reads "Loading dashbaord"
 
 3)after that I implemented the whole dashboard also used settimout to simulate real world application
+
 4)I also did mock error handling if no data is loaded
 
 5)I added a View more button type which shows recent activities in json file
+
 6)added hover for small animations for better UX
 
 7)for view more I did nestied routing /dashboard/details
