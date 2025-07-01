@@ -1,4 +1,5 @@
 ////////////////////SETUP
+
 clone the repository
 cd proj
 cd frontend
@@ -8,21 +9,23 @@ npm run dev
 you can see it in local host 8000
 
 ///////////////////// Approach
-First I implemented a login page , I thought to make real JWT based but it would take time
+
+1)First I implemented a login page , I thought to make real JWT based but it would take time
 Hence I made a mock login page , one should submit username as "admin" and password as "1234" to get access to dashbaord
 
-Next I made a small loading animation
+2)Next I made a small loading animation
 which reads "Loading dashbaord"
 
-after that I implemented the whole dashboard also used settimout to simulate real world application
-I also did mock error handling if no data is loaded
+3)after that I implemented the whole dashboard also used settimout to simulate real world application
+4)I also did mock error handling if no data is loaded
 
-I added a View more button type which shows recent activities in json file
-added hover for small animations for better UX
+5)I added a View more button type which shows recent activities in json file
+6)added hover for small animations for better UX
 
-for view more I did nestied routing /dashboard/details
+7)for view more I did nestied routing /dashboard/details
 
 ///////////////////Challenges faced
+
 I directly copied and pasted the json file in my data , but it didnt rendered because of
 it was pdf hence rendered as pdf
 then I created a file and just copy pasted the content
